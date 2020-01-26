@@ -55,6 +55,7 @@ Some ideas for approaching bigger games:
   1. Many positions are symmetric. Exploiting symmetry will reduce the size of the game tree without introducing errors. For chess and go, this will not be enough, though.
   2. Limit the tree search to a specific depth and then use a heuristic to evaluate position.
   3. Use MCTS (Monte Carlo Tree Search). This method does not traverse the full game tree but instead samples random trajectories.
+  4. Use an ANN-Based AI and train by selfplay.
 
 Numbers 2. and 3. will not result in perfect play, but only in approximately-perfect play.
 
