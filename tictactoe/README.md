@@ -1,8 +1,10 @@
 ## Tic-Tac-Toe-Engine
 ### Quickstart
-To play a quick round of Tictactoe against the AI, go to the `tictactoe` directory and run `python demo.py`
+To play a quick round of Tic-Tac-Toe against the AI, go to the `tictactoe` directory and run `python demo.py`
 
 The code is written in python 3.7 and does only need the math and random modules.
+
+Thanks to the generic implementation, the AI can play not only Tic-Tac-Toe, but also other games. In `demo.py` you can uncomment some lines to play two other exemplary game.
 ### Tech
 #### Approach
 Tic-Tac-Toe is a deterministic game with no hidden information, where players take turns. Each game state is either a win-state, a lose-state or a draw-state.
